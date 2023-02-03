@@ -1,0 +1,142 @@
+[
+  {
+    "name": "java.nio.channels.spi.SelectorProvider",
+    "methods": [
+      { "name": "openSocketChannel", "parameterTypes": ["java.net.ProtocolFamily"]}
+    ]
+  },
+  {
+    "name": "io.netty.buffer.AbstractByteBufAllocator",
+    "methods": [
+      { "name" : "toLeakAwareBuffer", "parameterTypes" : ["io.netty.buffer.ByteBuf"] },
+      { "name" : "toLeakAwareBuffer", "parameterTypes" : ["io.netty.buffer.CompositeByteBuf"] }
+    ]
+  },
+  {
+    "name": "io.netty.util.ReferenceCountUtil",
+    "methods": [
+      { "name" : "touch", "parameterTypes" : ["java.lang.Object"] },
+      { "name" : "touch", "parameterTypes" : ["java.lang.Object", "java.lang.Object"] }
+    ]
+  },
+  {
+    "name": "io.netty.channel.socket.nio.NioSocketChannel",
+    "methods": [
+      { "name": "<init>", "parameterTypes" : []}
+    ]
+  },
+  {
+    "name" : "io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+    "fields": [
+      {"name": "producerIndex", "allowUnsafeAccess": true}
+    ]
+  },
+  {
+    "name" : "io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField",
+    "fields": [
+      {"name": "producerLimit", "allowUnsafeAccess": true}
+    ]
+  },
+  {
+    "name" : "io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+    "fields": [
+      {"name": "consumerIndex", "allowUnsafeAccess": true}
+    ]
+  },
+  {
+    "name" : "io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+    "fields": [
+      {"name": "producerIndex", "allowUnsafeAccess": true}
+    ]
+  },
+  {
+    "name" : "io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+    "fields": [
+      {"name": "producerLimit", "allowUnsafeAccess": true}
+    ]
+  },
+  {
+    "name" : "io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+    "fields": [
+      {"name": "consumerIndex", "allowUnsafeAccess": true}
+    ]
+  },
+  {
+    "name": "com.rabbitmq.stream.impl.Client$ClientParameters",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "com.rabbitmq.stream.impl.Client$StreamHandler",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "com.rabbitmq.stream.impl.Client$MetricsHandler",
+    "queryAllDeclaredMethods": true
+  },
+  { "name" : "net.jpountz.lz4.LZ4Compressor" },
+  {
+    "name" : "net.jpountz.lz4.LZ4JNICompressor",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.lz4.LZ4JavaSafeCompressor",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.lz4.LZ4JavaUnsafeCompressor",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.lz4.LZ4HCJavaSafeCompressor",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.lz4.LZ4HCJavaUnsafeCompressor",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.lz4.LZ4JavaSafeSafeDecompressor",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.lz4.LZ4JavaSafeFastDecompressor",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.lz4.LZ4JavaUnsafeSafeDecompressor",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.lz4.LZ4JavaUnsafeFastDecompressor",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.xxhash.XXHash32JavaSafe",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.xxhash.StreamingXXHash32JavaSafe$Factory",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.xxhash.XXHash64JavaSafe",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  },
+  {
+    "name" : "net.jpountz.xxhash.StreamingXXHash64JavaSafe$Factory",
+    "allDeclaredConstructors": true,
+    "allPublicFields": true
+  }
+]
