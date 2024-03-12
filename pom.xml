@@ -44,7 +44,7 @@
     <stream-client.version>[0.13.0-SNAPSHOT,)</stream-client.version>
     <slf4j.version>2.0.12</slf4j.version>
     <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
-    <maven-assembly-plugin.version>3.6.0</maven-assembly-plugin.version>
+    <maven-assembly-plugin.version>3.7.0</maven-assembly-plugin.version>
     <native-maven-plugin.version>0.10.1</native-maven-plugin.version>
     <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
     <!-- https://github.com/oracle/graalvm-reachability-metadata -->
