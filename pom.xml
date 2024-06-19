@@ -46,7 +46,7 @@
     <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
     <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
     <native-maven-plugin.version>0.10.2</native-maven-plugin.version>
-    <maven-jar-plugin.version>3.4.1</maven-jar-plugin.version>
+    <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
     <!-- https://github.com/oracle/graalvm-reachability-metadata -->
     <reachability-metadata-repository.version>0.3.4</reachability-metadata-repository.version>
   </properties>
