@@ -26,6 +26,24 @@
     ]
   },
   {
+    "name" : "io.netty.util.internal.shaded.org.jctools.queues.MpmcArrayQueueProducerIndexField",
+    "fields": [
+      {"name": "producerIndex", "allowUnsafeAccess": true}
+    ]
+  },
+  {
+    "name" : "io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+    "fields": [
+      {"name": "consumerIndex", "allowUnsafeAccess": true}
+    ]
+  },
+  {
+    "name" : "io.netty.util.internal.shaded.org.jctools.queues.MpmcArrayQueueConsumerIndexField",
+    "fields": [
+      {"name": "consumerIndex", "allowUnsafeAccess": true}
+    ]
+  },
+  {
     "name" : "io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
     "fields": [
       {"name": "producerIndex", "allowUnsafeAccess": true}
